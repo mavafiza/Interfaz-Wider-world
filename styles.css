@@ -357,11 +357,22 @@ footer {
     width: 20%;
 }
 
-
-
-
-
 /* SECTIONS end */
+
+/* SECTION TRIPS init */
+
+.section-trips {
+    background-color: #1f2625;
+    height: 500px;
+}
+
+.section-trips article {
+    background-color: #ae9e41;
+}
+
+
+/* SECTION TRIPS end */
+
 
 
 

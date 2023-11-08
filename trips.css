@@ -1,0 +1,31 @@
+/* font-family: 'Changa', sans-serif; */
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* font wheight */
+/* Changa:200;400;600;800 */
+/* Poppins:400;600;900; */
+/* Inter:300;400;600; */
+
+
+/* colors */
+
+/* Azul 1: #364573 */
+/* Azul Negro: #2E3D59 */
+/* Negro: #1f2625 */
+/* Azul claro: #4AABBC */
+/* Amarillo: #E1B65A */
+
+.section-trips {
+    background-color: #4AABBC;
+    color: #2E3D59;
+    }
+
+.article-trips {
+    background-color: #1f2625;
+}
+
+.article-trips img{
+    width: 100%;
+    height: auto;
+}
