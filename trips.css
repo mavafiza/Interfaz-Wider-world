@@ -16,16 +16,56 @@
 /* Azul claro: #4AABBC */
 /* Amarillo: #E1B65A */
 
-.section-trips {
+#body-trips {
     background-color: #4AABBC;
-    color: #2E3D59;
-    }
-
-.article-trips {
-    background-color: #1f2625;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
 }
 
-.article-trips img{
+main {
+    display: flex;
+    flex-direction: column;
+    /* width: 80%; */
+    height: auto;
+    /* padding: 10%; */
+}
+.mars-exploration {
+
+    /* background-attachment: fixed; */
+    /* padding: 5% 15%; */
+    width: 100%;
+    height: 500px;
+}
+.mars-exploration img {
     width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column;
 }
+.mars-exploration-contain {
+    background-image: url(/assets/galeria-1-foto-1-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    width: auto;
+    height: 100%;
+}
+.mars-exploration-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start ;
+    gap: 100px;
+    padding: 2% 0 2% 12%;
+    background-color: #2E3D59B2;
+    color: #FFF;
+    font-family: "poppins";
+    list-style: none;
+    margin-bottom: 0%;
+}
+.header-mars-exploration {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+

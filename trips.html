@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <meta name="description" content="Pagina Web de Wider World, viajes al mundo de tus sueños">
-    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="trips.css">
+    <link rel="stylesheet" href="styles.css">
+
     <meta name="robots" content="index, foolow">
     <link rel="icon" type="image/jpg" href="./assets/favicon-rocket.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,13 +19,15 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body id="body-trips">
+
+
     <header>
         <img id="logo-header" src="/assets/logo.png" alt="Logo de Wider Space">
         <nav id="myNav">
             <a href="./index.html">HOME</a>
             <div class="dropdown">
-                <button class="dropbtn active">TRIPS
+                <button class="dropbtn">TRIPS
                 </button>
                 <div class="dropdown-content">
                     <div class="sub-dropdown">
@@ -52,14 +55,10 @@
                     </div>
                 </div>
             </div>
-            <!-- <a href="./your-space.html">YOUR SPACE</a> -->
-            <!-- <a href="./rules-and-conditions.html">RULES&CONDITIONS</a> -->
             <a href="./about.html">ABOUT</a>
-            <a href="./contact.html">CONTACT</a>
+            <a href="./contact.html" class="active">CONTACT</a>
 
-            <!-- menú hamburguesa -->
             <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-            <!-- menú hamburguesa -->
 
         </nav>
 
@@ -72,42 +71,101 @@
             <h6 class="hidden">Login</h6>
         </div>
     </header>
-
-
-        <section class="section-trips">
-            <h1>All Space Trips</h1>
-            <article class="article-trips">
-                <img src="/assets/image-hero.png" alt="">
-                <h5>Adventure on Jupiter’s Moon</h5>
-                <p></p>
-                <ul></ul>
-                <p></p>
-                <button></button>
-            </article>
-            <aside>
-                <img src="/assets/galerias-galeria-1-foto-mini-1.png" alt="">
-                <img src="/assets/galerias-galeria-1-foto-mini-2.png" alt="">
-                <img src="/assets/galerias-galeria-1-foto-mini-3.png" alt="">
-            </aside>
+    <main>
+        <section class="mars-exploration">
+            <h3>Mars Exploration</h3>
+            <div class="mars-exploration-contain">
+            </div>
+            <ul class="mars-exploration-menu">
+                <li>itinerary</li>
+                <li>Details</li>
+                <li>Departure</li>
+            </ul>
         </section>
+        <section class="header-mars-exploration">
+            <h3>Itinerary</h3>
+            <p>Follow the footsteps of Curiosity, chill in a Mars oasis, live with locals as a real Martian and a lot
+                more of Martian Fun!</p>
+        </section>
+        <section>
+            <article>
+                <div>
+                    <h4>Week 1</h4>
+                    <h5>In the footsteps of the Curiosity robot</h5>
+                    <p>For a week we will follow the exploration journey carried out by the Curiosity robot to
+                        understand the planet.
+                        You can even drive a replica of the robot yourself through the rocky areas of the planet.
+                        Guided tour by the famous astronaut Yuri Nasdrovia, direct descendant of Yuri Gagarin.</p>
+                </div>
+                <img src="/assets/detalle-viaje-Foto-semana-1.png" alt="">
+
+            </article>
+            <article>
+                <div>
+                    <h4>Week 2</h4>
+                    <h5>Oasis on Mars</h5>
+                    <p>Next we will spend seven nights in several of the many resorts that exist on Mars thanks to the
+                        fact that the planet does have water.
+                        The bubbling waters of Mars are better than any bath you've ever dreamed of.</p>
+                </div>
+                <img src="/assets/galeria-1-foto-3-1.png" alt="">
+
+            </article>
+            <article>
+                <div>
+                    <h4>Week 3</h4>
+                    <h5>Living with Martians</h5>
+                    <p>We will spend a week knowing the local population. You will have the opportunity to know all the
+                        Martian culture: food, parties, dances... A flolklore never seen before!
+                        In addition, you will be able to participate in the Martian initiation ceremony, and a Martian
+                        wedding.</p>
+                </div>
+                <img src="/assets/galeria-1-foto-4-1.png" alt="">
+
+            </article>
+            <article>
+                <div>
+                    <h4>Week 4</h4>
+                    <h5>Red Spa</h5>
+                    <p>The arid land of Mars has multiple health benefits that last after returning to Earth. A week of
+                        treatments will rejuvenate you and cure your pains.
+                        With this cure you will optimize your immune and metabolic system, preventing any disease or
+                        ugliness.</p>
+                </div>
+                <img src="/assets/galeria-1-foto-2-1.png" alt="">
+
+            </article>
+
+            <button>Book you trip</button>
+        </section>
+
+
+
+
+
+
 
 
     </main>
 
 
 
-    <footer>
-        <p>About us</p>
-        <p>Contact us</p>
-        <p>Webpage developped by UI-5</p>
-        <p>Privacy Policy</p>
-        <p>Terms & Conditions</p>
-        <p>Cookie management</p>
-    </footer>
-
+    <!-- <footer>
+        <div class="order-footer">
+            <p>About us</p>
+            <p>Contact us</p>
+            <p>Webpage developped by UI-5</p>
+        </div>
+        <div class="order-footer">
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+            <p>Cookie management</p>
+        </div>
+    </footer> -->
     <!-- Javascript init-->
     <script src="index.js"></script>
     <!-- Javascript end-->
+
 </body>
 
 </html>
