@@ -17,7 +17,10 @@
 /* Amarillo: #E1B65A */
 
 #body-trips {
+    margin: 0 auto;
     background-color: #4AABBC;
+    font-family: Poppins;
+    color: #FFF;
     /* background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed; */
@@ -68,4 +71,3 @@ main {
     flex-direction: column;
     margin-bottom: 10px;
 }
-

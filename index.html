@@ -17,7 +17,7 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body id="body-trips"> 
     <section id="hero-section">
         <header>
             <img id="logo-header" src="/assets/logo.png" alt="Logo de Wider Space">
@@ -85,13 +85,72 @@
                 <p class="hero-paragraf-500">The best views on the marble planet satellite</p>
                 <p class="hero-paragraf-700"><b>Next Trip November 30Th</b></p>
             </div>
-            <div class="btn-hero-group">
+            <!-- <div class="btn-hero-group">
                 <button class="hero-button">Book</button>
                 <button class="hero-button">More</button>
-            </div>
+            </div> -->
         </article>
     </section>
+
+    <form action="">
+        <p><strong>Book your trip</strong></p>
+
+                <section class="display-row">
+                    <!-- Campo 1: Destination -->
+                    <fieldset class="option-form">
+                        <legend>Destination:</legend>
+                        <label for="destination"></label>
+                        <select class="transparent" id="destination" name="destination">
+                            <option value="Mars">Mars</option>
+                            <option value="RedSpa">Red Spa</option>
+                            <option value="OasisWithMartians">Oasis with Martians</option>
+                            <option value="LivingAmazingStreets">Living Amazing Streets</option>
+                        </select>
+                    </fieldset>
+
+                    <!-- Campo 2: Trip Type -->
+                    <fieldset class="option-form">
+                        <legend>Trip Type:</legend>
+                        <label for="trip-type"></label>
+                        <select class="transparent" id="trip-type" name="trip-type">
+                            <option value="return">Return</option>
+                            <option value="one-way">One-Way</option>
+                        </select>
+                    </fieldset>
+
+                    <!-- Campo 3: Depart-Return Date -->
+
+                        <fieldset class="option-form">
+                            <legend>Depart-Return:</legend>
+                        <label for="depart-return-date"></label>
+                        <input class="transparent" type="date" id="depart-return-date" name="depart-return-date">
+                    </fieldset>
+
+
+                    <!-- Campo 4: Passenger Class -->
+
+                        <fieldset class="option-form">
+                            <legend>Passenger Class:</legend>
+                            <label for="passenger-class"></label>
+                            <select class="transparent"  id="passenger-class" name="passenger-class">
+                                <option value="economy">Economy</option>
+                                <option value="business">Business</option>
+                                <option value="first-class">First Class</option>
+                            </select>
+                        </fieldset>
+
+                </section>
+
+                <!-- Botón de Envío -->
+                <div class="flex-end">
+                    <p>+ Add Promo Code</p>
+                    <a href="./answer.html" style="text-decoration: none; text-align: center; color: white; padding: 8px 0; font-family: Poppins;" class="hero-button" id="text-decoration">Show Trip</a>
+    
+                </div>
+    </form>
+
     <div class="separator"></div>
+    
     <section class="galery-1">
         <article class="galery-items">
             <h2>Mars Exploration</h2>
@@ -107,8 +166,8 @@
                 <img src="/assets/galeria-1-foto-4-1.png" alt="">
             </div>
             <div class="btn-hero-group">
-                <button class="galery-button">Book</button>
-                <button class="galery-button">More</button>
+                <!-- <button class="galery-button">Book</button>
+                <button class="galery-button">More</button> -->
             </div>
         </article>
     </section>
@@ -130,11 +189,12 @@
                 <img src="/assets/image-8.png" alt="">
             </div>
             <div class="btn-hero-group">
-                <button class="galery-button">Book</button>
-                <button class="galery-button">More</button>
+                <!-- <button class="galery-button">Book</button>
+                <button class="galery-button">More</button> -->
             </div>
         </article>
     </section>
+
     <div class="separator"></div>
 
     <footer>
